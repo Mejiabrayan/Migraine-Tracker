@@ -10,7 +10,7 @@ type Props = {
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-export default function Heatmap({ events, setOpen }: Props) {
+export default function Calender({ events, setOpen }: Props) {
   let yearly = dayjs().subtract(365, 'days').format('YYYY-MM-DD');
   const formattedEvents = events.map((event) => ({
     ...event,

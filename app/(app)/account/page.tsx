@@ -1,7 +1,7 @@
 'use client';
 
 import Form from '@/components/Form';
-import Heatmap from '@/components/HeatMap';
+import Calendar from '@/components/Calendar';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
 import { Event } from '@/types';
@@ -25,16 +25,14 @@ export default function AccountPage() {
       {/* Dashboard Section */}
       <div className='container mx-auto space-y-12 mt-12'>
         <div className='flex items-center justify-between space-y-12'>
-          <h2 className='text-2xl font-bold text-gray-800 dark:text-white'>
-            Migraine Tracker
-          </h2>
+          
           <Button onClick={() => setOpen(!open)}>Add Event</Button>
         </div>
         <div className='space-y-8 shadow rounded p-4'>
           {open ? (
             <Form setEvents={setEvents} setOpen={setOpen} />
           ) : (
-            <Heatmap events={events} setOpen={setOpen} />
+            <Calendar events={events} setOpen={setOpen} />
           )}
         </div>
       </div>
