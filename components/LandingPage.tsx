@@ -43,7 +43,7 @@ export default function LandingPage() {
           <div className='py-1 px-4 rounded-full shadow dark:shadow-gray-500 text-sm dark:text-white max-w-xs mx-auto'>
             Empower Migraine Research: Track Your Progress
           </div>
-          <h1 className='text-4xl lg:text-6xl 2xl:text-7xl font-semibold text-center max-w-3xl mx-auto mt-4'>
+          <h1 className='text-4xl lg:text-6xl 2xl:text-7xl font-semibold text-center max-w-3xl mx-auto mt-4 text-[#292929] dark:text-white'>
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}

@@ -1,5 +1,7 @@
 # Migraine Tracker
 
+![Migraine Tracker Screenshot](/app.png)
+
 ## Introduction
 
 The Migraine Tracker is a simple web application designed to help you keep track of your migraine events. It utilizes the Shadcn UI library for styling, Tailwind CSS for responsive design, and Supabase for data storage and authentication.
