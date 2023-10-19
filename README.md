@@ -1,6 +1,6 @@
 # Migraine Tracker
 
-![Migraine Tracker Screenshot](/app.png)
+![Migraine Tracker Screenshot](./public/app.png)
 
 ## Introduction
 
