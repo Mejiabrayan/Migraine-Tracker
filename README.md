@@ -22,4 +22,4 @@ The Migraine Tracker is a simple web application designed to help you keep track
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/migraine-tracker.git
+   git clone https://github.com/mejiabrayan/migraine-tracker.git
